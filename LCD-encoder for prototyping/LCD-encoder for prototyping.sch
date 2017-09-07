@@ -29,6 +29,30 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:4000-ic
+LIBS:7400-ic
+LIBS:analog-ic
+LIBS:avr-mcu
+LIBS:bluegiga
+LIBS:connector
+LIBS:diode-inc-ic
+LIBS:freescale-ic
+LIBS:ftdi-ic
+LIBS:led
+LIBS:maxim-ic
+LIBS:micrel-ic
+LIBS:microchip-ic
+LIBS:nxp-ic
+LIBS:on-semi-ic
+LIBS:regulator
+LIBS:rohm
+LIBS:sharp-relay
+LIBS:sparkfun
+LIBS:standard
+LIBS:stmicro-mcu
+LIBS:ti-ic
+LIBS:transistor
+LIBS:uln-ic
 LIBS:LCD-encoder for prototyping-cache
 EELAYER 25 0
 EELAYER END
@@ -848,7 +872,7 @@ L CONN_01X04 J3
 U 1 1 59ADAFEF
 P 9700 5150
 F 0 "J3" H 9700 5400 50  0000 C CNN
-F 1 "CONN_01X04" V 9800 5150 50  0000 C CNN
+F 1 "LCD_i2c" V 9800 5150 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 9700 5150 50  0001 C CNN
 F 3 "" H 9700 5150 50  0001 C CNN
 	1    9700 5150
